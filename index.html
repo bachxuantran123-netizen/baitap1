@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+    img {
+        width:100%;
+    }
+</style>
+    <meta charset="UTF-8">
+    <title> Ngu </title>
+</head>
+<body>
+<button onclick='alert("sup?")'>Click Me</button>
+<form action="https://www.google.com.vn/" method="get">
+    <label><input type="text" name="search"/></label>
+    <input type="submit" value="Tìm kiếm"/>
+</form>
+<form name="Sign In" action="/action_page" method="post">
+    <fieldset>
+        <legend> Sign In </legend>
+        <label for="uname"> Username: </label>
+        <br>
+        <input type="text" id="uname" name="uname" placeholder="Enter your username" required>
+        <br>
+        <label for="password"> Password: </label>
+        <br>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <br>
+        <input type="submit" value="Sign In">
+        <input type="reset" value="Reset">
+        <input type="button" value="Sign Up" onclick="window.location.href='Sign Up'">
+    </fieldset>
+</form>
+<form>
+    <label><input type="radio" name="gender" value="male" checked> Male<br></label>
+    <label><input type="radio" name="gender" value="female"> Female<br></label>
+    <label><input type="radio" name="gender" value="other"> Other</label>
+    <label><input type="button" value="Submit"></label>
+</form>
+<form>
+    <label><input type="checkbox" name="check" value="I'm stupid"> I'm stupid<br></label>
+    <label><input type="checkbox" name="check" value="I'm not smart"> I'm not smart<br></label>
+</form>
+<table border="1">
+    <tr>
+        <th>Surname</th>
+        <th>Name</th>
+    </tr>
+    <tr>
+        <td> Sieu </td>
+        <td> Nhan </td>
+    </tr>
+    <tr>
+        <td> Anh </td>
+        <td> Hung </td>
+    </tr>
+    <tr>
+        <td colspan="2"> Phu Thuy </td>
+    </tr>
+    <tr>
+        <td rowspan="3"> Phan Dien </td>
+        <td> Hung </td>
+    </tr>
+    <tr>
+        <td> Thu </td>
+    </tr>
+    <tr>
+        <td> Chinh La </td>
+    </tr>
+</table>
+<label>
+    Movie:
+    <select name="anime">
+        <option value="Naruto">Naruto</option>
+        <option value="One Piece">One Piece</option>
+    </select>
+</label>
+<p><a href="#B1">Jump to p2 </a></p>
+    <h1> Ngu </h1>
+    <p title="Ngu"> Ngu
+        <br>
+        I'm stupid
+        <br>
+        U stupid too
+        <br>
+    </p>
+    <hr>
+    <h2 id="B1"> Stupid </h2>
+    <a href="https://james.codegym.vn/mod/page/view.php?id=15328/" target="_blank">Lesson code</a>
+    <h2 id="B2"> Weeb
+    <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHkxeG1sNDZwd3N3dmVpZmd1a210dmhsaWN5cHB2MGw0MjgybXFlaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6Lcx1eZMt7mo0/giphy.gif"
+         alt="Naruto" usemap="#Weebmap" style="float:right;width:350px;height:200px;">
+    <map name="Weebmap">
+        <area shape="rect" coords="0,0,350,200" alt="Naruto" href="https://wibu.com.vn/" target="_blank">
+    </map>
+    </h2>
+    <h2> Activity </h2>
+    <ul style="list-style-type:square">
+        <li> Game </li>
+        <li> Film </li>
+        <li> Sleep </li>
+    </ul>
+    <ol type="A">
+        <li> Cook </li>
+        <li> Laundry </li>
+        <li> Gym </li>
+    </ol>
+<script src="my.js"></script>
+</body>
+</html>
